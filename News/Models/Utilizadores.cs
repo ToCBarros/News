@@ -15,6 +15,7 @@ namespace News.Models
         public string Password { get; set; }
         //sugestão:Envez de bin -> booleano
         public bool Premium { get; set; }
+        public ICollection<Partilha> ListaPartilhas { get; set; }
 
 
     }
